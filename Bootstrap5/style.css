@@ -1,0 +1,117 @@
+.mynav{
+    background-color: #2E2E2E!important;
+    height: 11vh;
+}
+.navbar{
+    background-color: transparent !important;
+    font-family: poppins;
+}
+.navbar-nav{
+    margin: 0 auto;
+}
+.navbar-brand{
+    color: white !important;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.navbar-brand:hover{
+    color:crimson !important;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.navbar-nav a{
+    color: white !important;
+    margin-top: 1px;
+}
+.navbar-nav a:hover{
+    color: crimson !important;
+    margin-top: 1px;
+}
+.dropdown-menu{
+    background-color: rgba(0,0,0,0.4);
+}
+.dropdown-item:hover{
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 5px;
+}
+form button{
+    color: white !important;
+    border-style: solid;
+    border-color: white !important;
+}
+form button:hover{
+    color: white !important;
+    border-style: solid;
+    border-color: white !important;
+    background: crimson !important;
+}
+.carousel-item{
+    height: 90vh;
+    background-size: cover;
+    -webkit-background-size:cover;
+    background-repeat: no-repeat;
+}
+.carousel-item::before{
+    content:"";
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption{
+    bottom: 210px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 3px;
+}
+.carousel-caption h5{
+    font-size: 50px;
+    font-weight: 500;
+    color: red;
+}
+.carousel-caption p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.slide-btn{
+    margin-top: 50px;
+}
+.btn-1{
+    height: 50px;
+    width: 80px;
+    background-color: crimson;
+    border: crimson;
+    border-radius: 2px;
+    color: white;
+    margin-right: 20px;
+}
+.btn-2{
+    height: 50px;
+    width: 80px;
+    background-color: rgb(0, 159, 233);
+    border: crimson;
+    border-radius: 2px;
+    color: white;
+}
+.btn-1:hover{
+    height: 50px;
+    width: 80px;
+    background-color: rgb(133, 9, 34);
+    border-radius: 2px;
+    color: white;
+}
+.btn-2:hover{
+    height: 50px;
+    width: 80px;
+    background-color: rgb(7, 43, 90);
+    border-radius: 2px;
+    color: white;
+}
+.carousel-indicators .acitive{
+   background-color: crimson !important;
+}
